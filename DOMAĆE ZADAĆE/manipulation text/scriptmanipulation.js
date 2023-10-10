@@ -14,3 +14,4 @@ var captializedString = (str) => str[0].toUpperCase();
 var words = sentence.split(' ').map(captializedString);
 var capitalizedSentence = words.join(' ');
 console.log(capitalizedSentence); 
+
