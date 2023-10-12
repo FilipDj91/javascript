@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random cat facts</h1>
+
+
+<button on click = "randomFact()" >Random Fact</button>
+
+<button id = "randomFact"></button>
+
+<script>
+const url = 'https://catfact.ninja/fact';
+
+const requestMethod = {
+
+method: "GET",
+
+};
+
+fetch(url)
+.then(response => response.json())
+.then(data => randomFact(data));
+
+function randomFact(data) {
+
+    let elements = document.querySelector
+
+
+
+}
+
+
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
